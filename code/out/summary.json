@@ -1,0 +1,144 @@
+{
+ "cnn_ensemble": {
+  "S1_asis": {
+   "accuracy": 0.9595959595959596,
+   "macro_f1": 0.9544513457556936,
+   "weighted_f1": 0.9595123073383942,
+   "macro_recall": 0.9545454545454546,
+   "macro_precision": 0.95625,
+   "per_class_recall": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.864,
+    "blackspot": 0.955
+   },
+   "per_class_precision": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.95,
+    "blackspot": 0.875
+   },
+   "per_class_f1": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.905,
+    "blackspot": 0.913
+   },
+   "confusion": [
+    [
+     33,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     22,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     19,
+     3
+    ],
+    [
+     0,
+     0,
+     1,
+     21
+    ]
+   ],
+   "macro_f1_ci95": [
+    0.9069191543654783,
+    0.9894702505978663
+   ]
+  },
+  "S2_isolated": {
+   "accuracy": 0.9595959595959596,
+   "macro_f1": 0.9544513457556936,
+   "weighted_f1": 0.9595123073383942,
+   "macro_recall": 0.9545454545454546,
+   "macro_precision": 0.95625,
+   "per_class_recall": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.955,
+    "blackspot": 0.864
+   },
+   "per_class_precision": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.875,
+    "blackspot": 0.95
+   },
+   "per_class_f1": {
+    "fresh": 1.0,
+    "grenning": 1.0,
+    "canker": 0.913,
+    "blackspot": 0.905
+   },
+   "confusion": [
+    [
+     33,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     22,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     21,
+     1
+    ],
+    [
+     0,
+     0,
+     3,
+     19
+    ]
+   ],
+   "macro_f1_ci95": [
+    0.9058708552777983,
+    0.9891879235881897
+   ]
+  }
+ },
+ "cnn_params": 211316,
+ "cnn_latency_ms": {
+  "S1_asis": 9.904670715332031,
+  "S2_isolated": 13.86078397432963
+ },
+ "cnn_seed_f1": {
+  "S1_asis": [
+   0.9313,
+   0.9545,
+   0.9659
+  ],
+  "S2_isolated": [
+   0.9542,
+   0.9317,
+   0.9305
+  ]
+ },
+ "cnn_seed_acc": {
+  "S1_asis": [
+   0.9394,
+   0.9596,
+   0.9697
+  ],
+  "S2_isolated": [
+   0.9596,
+   0.9394,
+   0.9394
+  ]
+ },
+ "classical_e2e_ms": 17.79656410217285
+}

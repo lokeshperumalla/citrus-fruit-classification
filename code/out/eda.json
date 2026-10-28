@@ -1,0 +1,211 @@
+{
+ "n_total": 1090,
+ "corrupt": 0,
+ "counts": {
+  "blackspot": {
+   "test": 22,
+   "train": 184
+  },
+  "canker": {
+   "test": 22,
+   "train": 179
+  },
+  "fresh": {
+   "test": 33,
+   "train": 281
+  },
+  "grenning": {
+   "test": 22,
+   "train": 347
+  }
+ },
+ "train_imbalance_ratio_max_min": 1.94,
+ "size_summary": {
+  "w": {
+   "count": 1090.0,
+   "mean": 669.02,
+   "std": 211.55,
+   "min": 144.0,
+   "25%": 454.5,
+   "50%": 800.0,
+   "75%": 800.0,
+   "max": 800.0
+  },
+  "h": {
+   "count": 1090.0,
+   "mean": 659.44,
+   "std": 224.98,
+   "min": 138.0,
+   "25%": 400.0,
+   "50%": 800.0,
+   "75%": 800.0,
+   "max": 800.0
+  },
+  "mpix": {
+   "count": 1090.0,
+   "mean": 0.49,
+   "std": 0.24,
+   "min": 0.02,
+   "25%": 0.18,
+   "50%": 0.64,
+   "75%": 0.64,
+   "max": 0.64
+  },
+  "bytes": {
+   "count": 1090.0,
+   "mean": 133573.16,
+   "std": 35762.61,
+   "min": 21512.0,
+   "25%": 116849.5,
+   "50%": 136273.5,
+   "75%": 154442.75,
+   "max": 287648.0
+  }
+ },
+ "unique_sizes": 150,
+ "top_sizes": [
+  [
+   800,
+   800,
+   776
+  ],
+  [
+   368,
+   344,
+   7
+  ],
+  [
+   426,
+   418,
+   6
+  ],
+  [
+   322,
+   294,
+   5
+  ],
+  [
+   210,
+   192,
+   5
+  ],
+  [
+   488,
+   450,
+   5
+  ],
+  [
+   384,
+   368,
+   5
+  ],
+  [
+   438,
+   388,
+   5
+  ]
+ ],
+ "ext_by_class": {
+  "jpg": {
+   "blackspot": 206,
+   "canker": 201,
+   "fresh": 0,
+   "grenning": 369
+  },
+  "png": {
+   "blackspot": 0,
+   "canker": 0,
+   "fresh": 314,
+   "grenning": 0
+  }
+ },
+ "mode_counts": {
+  "RGB": 1058,
+  "RGBA": 32
+ },
+ "per_class_stats": {
+  "w": {
+   "blackspot": 800.0,
+   "canker": 800.0,
+   "fresh": 345.3,
+   "grenning": 800.0
+  },
+  "h": {
+   "blackspot": 800.0,
+   "canker": 800.0,
+   "fresh": 312.1,
+   "grenning": 800.0
+  },
+  "bright": {
+   "blackspot": 101.5999984741211,
+   "canker": 93.69999694824219,
+   "fresh": 158.0,
+   "grenning": 46.900001525878906
+  },
+  "border_bright": {
+   "blackspot": 129.10000610351562,
+   "canker": 116.5,
+   "fresh": 147.6999969482422,
+   "grenning": 9.399999618530273
+  },
+  "sat": {
+   "blackspot": 135.3000030517578,
+   "canker": 125.80000305175781,
+   "fresh": 107.80000305175781,
+   "grenning": 125.69999694824219
+  },
+  "hue": {
+   "blackspot": 28.399999618530273,
+   "canker": 32.79999923706055,
+   "fresh": 21.5,
+   "grenning": 67.0999984741211
+  },
+  "blur": {
+   "blackspot": 148.7,
+   "canker": 162.7,
+   "fresh": 672.7,
+   "grenning": 24.9
+  },
+  "bytes": {
+   "blackspot": 150158.9,
+   "canker": 152599.3,
+   "fresh": 119806.4,
+   "grenning": 125664.9
+  }
+ },
+ "exact_dup_files": 0,
+ "exact_dup_groups": 0,
+ "exact_dup_cross_class": 0,
+ "exact_dup_cross_split": 0,
+ "near_dup_test_vs_train_pairs": 8,
+ "near_dup_test_images_leaking": 8,
+ "near_dup_within_train_pairs": 27,
+ "near_dup_within_train_images": 45,
+ "near_dup_test_train_label_conflicts": 2,
+ "outliers_mpix": 0,
+ "outliers_mpix_by_class": {},
+ "outliers_bright": 0,
+ "outliers_bright_by_class": {},
+ "outliers_blur": 125,
+ "outliers_blur_by_class": {
+  "fresh": 123,
+  "canker": 1,
+  "blackspot": 1
+ },
+ "outliers_aspect": 312,
+ "outliers_aspect_by_class": {
+  "fresh": 312
+ },
+ "test_class_share": {
+  "fresh": 0.333,
+  "grenning": 0.222,
+  "canker": 0.222,
+  "blackspot": 0.222
+ },
+ "train_class_share": {
+  "grenning": 0.35,
+  "fresh": 0.284,
+  "blackspot": 0.186,
+  "canker": 0.181
+ }
+}
